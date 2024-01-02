@@ -115,7 +115,7 @@
 
 .letter_of_the_first_word {
   position: relative;
-  left: 18px;
+  right: 35px;
   bottom: 2px;
 }
 
@@ -140,7 +140,6 @@
 .aligned-text_right {
   text-align: right;
   text-transform: uppercase;
-  letter-spacing: 10px;
   z-index: 2;
   letter-spacing: 30px;
 }
