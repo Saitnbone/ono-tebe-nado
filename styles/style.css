@@ -221,6 +221,11 @@
   background-size: cover;
 }
 
+.word {
+  position: relative;
+  left: 6px;
+}
+
 .card_type_book {
   padding: 48px 36px 39px 39px;
   background-image: url("../images/card-lot-02.jpg");
@@ -262,9 +267,12 @@
 }
 
 .card__title {
+  font-family: Raleway, sans-serif;
+  color: #fff;
   position: relative;
   font-size: 22px;
   font-weight: 700;
+  font-style: normal;
   text-decoration: underline;
   line-height: 120%;
   text-transform: uppercase;
@@ -272,7 +280,6 @@
 }
 
 .card__text {
-  /* position: relative; */
   font-size: 20px;
   line-height: 120%;
   z-index: 1;
@@ -309,8 +316,6 @@
   margin-left: 45px;
   width: 148px;
   height: 114px;
-  /* padding: 61px 44px 62px 45px;
-  z-index: 1; */
 }
 
 .about__column {
